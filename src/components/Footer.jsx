@@ -9,9 +9,9 @@ const Footer = () => (
           <img src="/logo.avif" alt="ADMH logo" className="h-12 w-12 rounded-full border border-gold/40 object-contain" />
           <div>
             <p className="font-display text-xl tracking-[0.4em] text-gold">ADMH</p>
-          <p className="mt-2 text-sm text-white/60">
-            Abna Abdulla Darwish Mohammed Hussain for Trading & Contracting
-          </p>
+            <p className="mt-2 text-sm text-white/60">
+              Abna Abdulla Darwish Mohammed Hussain for Trading & Contracting
+            </p>
           </div>
         </div>
         <div className="flex gap-6 text-xs uppercase tracking-[0.3em] text-white/70">
