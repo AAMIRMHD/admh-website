@@ -1,0 +1,81 @@
+import { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { FiMenu, FiX } from "react-icons/fi";
+
+const links = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
+];
+
+const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 30);
+    onScroll();
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  return (
+    <nav
+      className={`fixed top-0 z-50 w-full transition-all duration-500 ${
+        scrolled ? "backdrop-blur-2xl bg-black/60 border-b border-white/10" : "bg-transparent"
+      }`}
+    >
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10">
+        <div className="font-display text-lg tracking-[0.4em] text-gold">ADMH</div>
+        <div className="hidden items-center gap-8 text-xs uppercase tracking-[0.35em] md:flex">
+          {links.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="group relative text-white/70 transition hover:text-gold"
+            >
+              {link.label}
+              <span className="absolute left-0 top-full mt-2 h-[2px] w-full origin-left scale-x-0 bg-gold transition duration-300 group-hover:scale-x-100" />
+            </a>
+          ))}
+        </div>
+        <button
+          className="md:hidden"
+          aria-label="Toggle menu"
+          onClick={() => setOpen((prev) => !prev)}
+        >
+          {open ? <FiX size={22} /> : <FiMenu size={22} />}
+        </button>
+      </div>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ type: "spring", stiffness: 120, damping: 18 }}
+            className="fixed right-0 top-0 h-screen w-72 bg-black/90 px-8 py-24 shadow-2xl backdrop-blur-2xl"
+          >
+            <div className="flex flex-col gap-6 text-sm uppercase tracking-[0.3em]">
+              {links.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-white/70 transition hover:text-gold"
+                  onClick={() => setOpen(false)}
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </nav>
+  );
+};
+
+export default Navbar;

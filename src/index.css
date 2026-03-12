@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Montserrat", sans-serif;
+    background: #0b0d12;
+    color: #f8f5ee;
+  }
+
+  ::selection {
+    background: rgba(212, 175, 55, 0.3);
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-black/45 backdrop-blur-2xl border border-white/10 shadow-panel;
+  }
+
+  .gold-line {
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.55), transparent);
+  }
+
+  .glow-button {
+    @apply relative overflow-hidden rounded-full border border-gold/60 px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-white transition hover:-translate-y-1 hover:shadow-glow;
+    background: linear-gradient(120deg, rgba(212, 175, 55, 0.18), rgba(212, 175, 55, 0.32));
+  }
+
+  .glow-button::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent 10%, rgba(212, 175, 55, 0.5) 50%, transparent 90%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .glow-button:hover::after {
+    opacity: 1;
+  }
+}
