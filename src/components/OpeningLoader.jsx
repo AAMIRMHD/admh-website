@@ -93,9 +93,9 @@ const OpeningLoader = () => {
                 </motion.g>
 
                 <motion.g
-                  initial={{ x: -80 }}
-                  animate={{ x: [0, 50, 0] }}
-                  transition={{ duration: 3.2, repeat: Infinity, ease: "easeInOut" }}
+                  initial={{ x: -160 }}
+                  animate={{ x: [0, 220] }}
+                  transition={{ duration: 3.4, repeat: Infinity, ease: "easeInOut" }}
                 >
                   <rect x="600" y="150" width="120" height="28" fill="#0f172a" />
                   <rect x="720" y="140" width="52" height="38" fill="#d4af37" />
@@ -104,16 +104,6 @@ const OpeningLoader = () => {
                   <circle cx="740" cy="182" r="10" fill="#0f172a" />
                 </motion.g>
 
-                <motion.g
-                  initial={{ x: 60 }}
-                  animate={{ x: [0, -40, 0] }}
-                  transition={{ duration: 4.2, repeat: Infinity, ease: "easeInOut" }}
-                >
-                  <rect x="760" y="148" width="90" height="26" fill="#0f172a" />
-                  <rect x="820" y="130" width="26" height="18" fill="#d4af37" />
-                  <circle cx="780" cy="178" r="9" fill="#d4af37" />
-                  <circle cx="820" cy="178" r="9" fill="#d4af37" />
-                </motion.g>
               </svg>
             </div>
 
