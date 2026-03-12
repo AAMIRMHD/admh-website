@@ -14,7 +14,7 @@ const Footer = () => (
             </p>
           </div>
         </div>
-        <div className="flex gap-6 text-xs uppercase tracking-[0.3em] text-white/70">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-3 text-xs uppercase tracking-[0.2em] text-white/70 lg:flex lg:gap-6 lg:tracking-[0.3em]">
           <a href="#about" className="hover:text-gold">About</a>
           <a href="#services" className="hover:text-gold">Services</a>
           <a href="#projects" className="hover:text-gold">Projects</a>
