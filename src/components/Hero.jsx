@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FiArrowDown } from "react-icons/fi";
-import ThreeBackdrop from "./ThreeBackdrop";
 
 const Hero = () => {
   const { scrollY } = useScroll();
@@ -62,18 +61,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <ThreeBackdrop />
 
-      <div className="absolute right-10 top-32 hidden flex-col gap-4 lg:flex">
-        {["MEP Excellence", "Gold-Standard QA/QC", "Elite Engineering Teams"].map((label) => (
-          <div
-            key={label}
-            className="glass animate-float rounded-full px-5 py-2 text-xs uppercase tracking-[0.3em] text-white/70"
-          >
-            {label}
-          </div>
-        ))}
-      </div>
 
       <motion.div
         initial={{ opacity: 0 }}

@@ -28,7 +28,10 @@ const Navbar = () => {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10">
-        <div className="font-display text-lg tracking-[0.4em] text-gold">ADMH</div>
+        <div className="flex items-center gap-3">
+          <img src="/logo.avif" alt="ADMH logo" className="h-10 w-10 rounded-full border border-gold/40 object-contain" />
+          <div className="font-display text-lg tracking-[0.4em] text-gold">ADMH</div>
+        </div>
         <div className="hidden items-center gap-8 text-xs uppercase tracking-[0.35em] md:flex">
           {links.map((link) => (
             <a

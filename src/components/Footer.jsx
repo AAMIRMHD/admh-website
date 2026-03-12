@@ -5,11 +5,14 @@ const Footer = () => (
     <div className="gold-line h-px" />
     <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-12 md:px-10">
       <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-        <div>
-          <p className="font-display text-xl tracking-[0.4em] text-gold">ADMH</p>
+        <div className="flex items-center gap-4">
+          <img src="/logo.avif" alt="ADMH logo" className="h-12 w-12 rounded-full border border-gold/40 object-contain" />
+          <div>
+            <p className="font-display text-xl tracking-[0.4em] text-gold">ADMH</p>
           <p className="mt-2 text-sm text-white/60">
             Abna Abdulla Darwish Mohammed Hussain for Trading & Contracting
           </p>
+          </div>
         </div>
         <div className="flex gap-6 text-xs uppercase tracking-[0.3em] text-white/70">
           <a href="#about" className="hover:text-gold">About</a>
