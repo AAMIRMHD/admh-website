@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 const Contact = () => (
-  <section id="contact" className="relative">
+  <section id="contact" className="relative bg-charcoal">
     <div className="mx-auto max-w-6xl px-6 py-24 md:px-10">
       <div className="flex flex-col gap-3">
         <p className="text-xs uppercase tracking-[0.4em] text-gold">Contact</p>

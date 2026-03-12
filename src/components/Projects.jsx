@@ -6,7 +6,7 @@ const Projects = () => {
   const [active, setActive] = useState(null);
 
   return (
-    <section id="projects" className="relative bg-black/70">
+    <section id="projects" className="relative bg-charcoal sm:bg-black/70">
       <div className="mx-auto max-w-6xl px-6 py-24 md:px-10">
         <div className="flex flex-col gap-3">
           <p className="text-xs uppercase tracking-[0.4em] text-gold">Projects</p>

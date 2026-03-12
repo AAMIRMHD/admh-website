@@ -7,7 +7,7 @@ const cardVariants = {
 };
 
 const Services = () => (
-  <section id="services" className="relative">
+  <section id="services" className="relative bg-charcoal">
     <div className="mx-auto max-w-6xl px-6 py-24 md:px-10">
       <div className="flex flex-col gap-3">
         <p className="text-xs uppercase tracking-[0.4em] text-gold">Services</p>

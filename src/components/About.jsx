@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const About = () => (
-  <section id="about" className="relative bg-navy/50">
+  <section id="about" className="relative bg-charcoal sm:bg-navy/50">
     <div className="mx-auto grid max-w-6xl gap-10 px-6 py-24 md:grid-cols-2 md:px-10">
       <motion.div
         initial={{ opacity: 0, x: -20 }}
