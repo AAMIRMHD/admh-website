@@ -63,15 +63,6 @@ infrastructure across Oman.
         </motion.div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-xs uppercase tracking-[0.4em] text-ink/60"
-      >
-        <span>Scroll</span>
-        <FiArrowDown className="animate-bounce" />
-      </motion.div>
     </section>
   );
 };
