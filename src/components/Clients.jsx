@@ -5,8 +5,8 @@ const Clients = () => (
   <section id="clients" className="relative bg-[#f2efe9]">
     <div className="mx-auto max-w-6xl px-6 py-20 md:px-10">
       <div className="flex flex-col gap-3">
-        <p className="text-xs uppercase tracking-[0.4em] text-gold">Clients / Partners</p>
-        <h2 className="font-display text-3xl md:text-4xl">Trusted by leading institutions.</h2>
+        <p className="text-xs uppercase tracking-[0.4em] text-gold"></p>
+        <h2 className="font-display text-3xl md:text-4xl">Trusted by </h2>
       </div>
       <motion.div
         initial={{ opacity: 0 }}

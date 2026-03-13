@@ -4,7 +4,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 const links = [
   { label: "Home", href: "#home" },
-  { label: " ADMH", href: "#about" },
+  { label: " About", href: "#about" },
   { label: " Services", href: "#services" },
   { label: " Projects", href: "#projects" },
   { label: "Why Choose Us", href: "#why" },
@@ -65,7 +65,7 @@ const Navbar = () => {
           <img src="/logo.avif" alt="ADMH logo" className="h-10 w-10 rounded-full border border-gold/40 object-contain" />
           <div className="font-display text-lg tracking-[0.4em] text-gold">ADMH</div>
         </div>
-        <div className="hidden items-center gap-6 text-[0.65rem] uppercase tracking-[0.3em] md:flex">
+        <div className="hidden items-center gap-6 text-[0.72rem] font-semibold uppercase tracking-[0.32em] md:flex">
           {links.map((link) => (
             <a
               key={link.label}

@@ -87,11 +87,6 @@ export const whyChooseUs = [
 
 export const clients = [
   "Government of Oman",
-  "Ministry of Endowments",
-  "Public Prosecution",
-  "Toyota Oman",
-  "Al-Wafa Social Center",
-  "Omani Women’s Association",
   "Social Development Programs",
   "Private Residential Clients",
 ];
