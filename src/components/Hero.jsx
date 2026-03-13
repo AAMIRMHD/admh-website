@@ -13,7 +13,7 @@ const Hero = () => {
         loop
         playsInline
         className="absolute inset-0 h-full w-full object-cover"
-        poster="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=80"
+        poster="/h.png"
       >
         <source src="https://cdn.coverr.co/videos/coverr-construction-site-1530/1080p.mp4" type="video/mp4" />
       </video>

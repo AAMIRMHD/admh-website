@@ -70,7 +70,7 @@ const Contact = () => (
             className="h-64 w-full rounded-2xl border border-black/10"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15066.02506029696!2d58.407!3d23.588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ff3f1b05b8b1%3A0x8cf3fd1a2cb1a231!2sMuscat%2C%20Oman!5e0!3m2!1sen!2som!4v1680000000000"
+            src="https://www.google.com/maps?cid=12039671609216909677&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAEYASAB&hl=en-GB&source=embed&output=embed"
           ></iframe>
         </motion.div>
       </div>
