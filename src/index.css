@@ -7,8 +7,8 @@
 @layer base {
   body {
     font-family: "Montserrat", sans-serif;
-    background: #0b0d12;
-    color: #f8f5ee;
+    background: #f0ece4;
+    color: #111827;
   }
 
   ::selection {
@@ -18,16 +18,16 @@
 
 @layer components {
   .glass {
-    @apply bg-black/45 backdrop-blur-2xl border border-white/10 shadow-panel;
+    @apply bg-white/75 backdrop-blur-2xl border border-black/5 shadow-panel;
   }
 
   .gold-line {
-    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.55), transparent);
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.7), transparent);
   }
 
   .glow-button {
-    @apply relative overflow-hidden rounded-full border border-gold/60 px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-white transition hover:-translate-y-1 hover:shadow-glow;
-    background: linear-gradient(120deg, rgba(212, 175, 55, 0.18), rgba(212, 175, 55, 0.32));
+    @apply relative overflow-hidden rounded-full border border-gold/60 px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-ink transition hover:-translate-y-1 hover:shadow-glow;
+    background: linear-gradient(120deg, rgba(212, 175, 55, 0.18), rgba(212, 175, 55, 0.35));
   }
 
   .glow-button::after {

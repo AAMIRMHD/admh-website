@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import OpeningLoader from "./components/OpeningLoader";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
-import Stats from "./components/Stats";
+import WhyChooseUs from "./components/WhyChooseUs";
+import Clients from "./components/Clients";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -14,15 +14,15 @@ const App = () => (
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 0.8 }}
-    className="text-white bg-charcoal"
+    className="text-ink bg-charcoal"
   >
-    <OpeningLoader />
     <Navbar />
     <Hero />
     <About />
     <Services />
     <Projects />
-    <Stats />
+    <WhyChooseUs />
+    <Clients />
     <Contact />
     <Footer />
   </motion.div>

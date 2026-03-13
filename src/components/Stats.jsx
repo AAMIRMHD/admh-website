@@ -34,7 +34,7 @@ const StatCard = ({ label, value }) => {
       className="glass rounded-3xl p-8 text-center"
     >
       <div className="font-display text-3xl text-gold">{count}</div>
-      <p className="mt-2 text-sm uppercase tracking-[0.3em] text-white/60">{label}</p>
+      <p className="mt-2 text-sm uppercase tracking-[0.3em] text-ink/60">{label}</p>
     </motion.div>
   );
 };

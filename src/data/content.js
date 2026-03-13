@@ -1,93 +1,97 @@
-import {
-  FiAperture,
-  FiCpu,
-  FiTool,
-  FiDroplet,
-  FiLayers,
-  FiShield,
-} from "react-icons/fi";
+import { FiTool, FiDroplet, FiLayers, FiShield } from "react-icons/fi";
 
 export const services = [
   {
-    title: "General Contracting",
+    title: "Construction & Civil Engineering",
     description:
-      "End-to-end project delivery with luxury-grade finishes, precision scheduling, and rigorous QA/QC.",
+      "Residential, commercial, and governmental construction delivered to the highest standards of quality.",
     icon: FiTool,
+    image: "/cc1.jpg",
   },
   {
-    title: "Mechanical Engineering",
+    title: "Ready-Mix Concrete Production",
     description:
-      "Advanced mechanical systems engineered for resilience, energy efficiency, and long-term performance.",
-    icon: FiCpu,
-  },
-  {
-    title: "Electrical Systems",
-    description:
-      "Intelligent power distribution, control systems, and resilient infrastructure for complex facilities.",
-    icon: FiAperture,
-  },
-  {
-    title: "Plumbing & HVAC",
-    description:
-      "High-performance plumbing and HVAC services delivering comfort and reliability at scale.",
-    icon: FiDroplet,
-  },
-  {
-    title: "Building Infrastructure",
-    description:
-      "Integrated civil, structural, and utilities coordination for landmark developments.",
+      "Accredited ready-mix concrete supply with tailored, cost-effective solutions for projects of any scale.",
     icon: FiLayers,
+    image: "/rd1.jpg",
   },
   {
-    title: "Maintenance Services",
+    title: "Crushers Operation",
     description:
-      "Elite maintenance programs ensuring continuous uptime and asset longevity.",
+      "High-quality construction materials supplied through accredited crusher operations.",
     icon: FiShield,
+    image: "/c1.jpg",
+  },
+  {
+    title: "Project Development & Urban Expansion",
+    description:
+      "Residential, commercial, and industrial developments including hotels, commercial centers, and fuel stations.",
+    icon: FiDroplet,
+    image: "/ur.jpg",
   },
 ];
 
 export const projects = [
   {
-    title: "Muscat Skyline Business Towers",
-    category: "Commercial Build",
-    image:
-      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1400&q=80",
+    title: "Government Projects",
+    category: "Public Sector",
+    description:
+      "Public Prosecution Building, Ministry of Endowments & Religious Affairs in Khasab, and multiple public facilities.",
+    image: "/g1.jpg",
   },
   {
-    title: "Sultanate Logistics Gateway",
-    category: "Infrastructure",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1400&q=80",
+    title: "Commercial Projects",
+    category: "Major Companies",
+    description:
+      "Toyota Buildings in Dibba and Khasab, Al-Wafa Social Center, and other landmark commercial builds.",
+    image: "/cp1.jpg",
   },
   {
-    title: "Premium Residential Residences",
-    category: "High-End Housing",
-    image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=80",
+    title: "Private Individuals' Projects",
+    category: "Residential",
+    description:
+      "Hundreds of private homes delivered through individual contracts, tailored to client needs.",
+    image: "/pi1.jpg",
   },
   {
-    title: "MEP Systems Command Center",
-    category: "MEP Installation",
-    image:
-      "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?auto=format&fit=crop&w=1400&q=80",
-  },
-  {
-    title: "Coastal Energy Complex",
-    category: "Industrial",
-    image:
-      "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?auto=format&fit=crop&w=1400&q=80",
-  },
-  {
-    title: "Modern Transit Hub",
-    category: "Public Infrastructure",
-    image:
-      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1400&q=80",
+    title: "Expansion Projects",
+    category: "Company Growth",
+    description:
+      "Khasab Hotel, Al-Maha Fuel Station, Zad Al Madina Center, Madina Gifts Center, and Madina Development Center.",
+    image: "/ep.jpg",
   },
 ];
 
-export const stats = [
-  { label: "Years of Experience", value: 22 },
-  { label: "Projects Completed", value: 180 },
-  { label: "Skilled Engineers", value: 140 },
-  { label: "Technical Workforce", value: 480 },
+export const whyChooseUs = [
+  {
+    title: "First-Grade Classification",
+    description:
+      "Recognized as a first-grade contracting company in the Sultanate with a proven history of excellence.",
+  },
+  {
+    title: "Experienced Leadership",
+    description:
+      "Established in 1977 by the late Mr. Abdullah Bin Droush with a legacy of discipline and hard work.",
+  },
+  {
+    title: "Diverse Capabilities",
+    description:
+      "Construction, concrete production, crushers, fuel stations, tourism, retail, and more under one trusted group.",
+  },
+  {
+    title: "Elite Technical Teams",
+    description:
+      "Highly skilled technical and administrative staff delivering consistent quality across every project.",
+  },
+];
+
+export const clients = [
+  "Government of Oman",
+  "Ministry of Endowments",
+  "Public Prosecution",
+  "Toyota Oman",
+  "Al-Wafa Social Center",
+  "Omani Women’s Association",
+  "Social Development Programs",
+  "Private Residential Clients",
 ];

@@ -3,20 +3,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        charcoal: "#0b0d12",
+        charcoal: "#f0ece4",
         navy: "#0f172a",
         gold: "#d4af37",
-        goldSoft: "rgba(212, 175, 55, 0.35)",
-        mist: "rgba(10, 15, 25, 0.12)",
-        ink: "#f8f5ee",
+        goldSoft: "rgba(212, 175, 55, 0.22)",
+        mist: "rgba(10, 15, 25, 0.08)",
+        ink: "#111827",
       },
       fontFamily: {
         display: ["Cormorant Garamond", "serif"],
         body: ["Montserrat", "sans-serif"],
       },
       boxShadow: {
-        glow: "0 0 40px rgba(212, 175, 55, 0.25)",
-        panel: "0 26px 60px rgba(5, 7, 12, 0.55)",
+        glow: "0 0 36px rgba(212, 175, 55, 0.22)",
+        panel: "0 26px 60px rgba(17, 24, 39, 0.16)",
       },
       backgroundImage: {
         "hero-gradient":

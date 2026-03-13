@@ -18,17 +18,17 @@ const Contact = () => (
           className="glass grid gap-4 rounded-3xl p-10"
         >
           <div className="grid gap-4 md:grid-cols-2">
-            <input className="rounded-2xl border border-white/10 bg-black/40 px-4 py-3 text-sm text-white" placeholder="Full Name" required />
+            <input className="rounded-2xl border border-black/10 bg-white/70 px-4 py-3 text-sm text-ink" placeholder="Full Name" required />
             <input
-              className="rounded-2xl border border-white/10 bg-black/40 px-4 py-3 text-sm text-white"
+              className="rounded-2xl border border-black/10 bg-white/70 px-4 py-3 text-sm text-ink"
               placeholder="Email Address"
               type="email"
               required
             />
           </div>
-          <input className="rounded-2xl border border-white/10 bg-black/40 px-4 py-3 text-sm text-white" placeholder="Company" />
+          <input className="rounded-2xl border border-black/10 bg-white/70 px-4 py-3 text-sm text-ink" placeholder="Company" />
           <textarea
-            className="min-h-[160px] rounded-2xl border border-white/10 bg-black/40 px-4 py-3 text-sm text-white"
+            className="min-h-[160px] rounded-2xl border border-black/10 bg-white/70 px-4 py-3 text-sm text-ink"
             placeholder="Project Requirements"
             required
           ></textarea>
@@ -45,8 +45,8 @@ const Contact = () => (
           <div className="flex items-start gap-4">
             <FiMapPin className="mt-1 text-gold" />
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-white/60">Address</p>
-              <p className="text-sm text-white/80">
+              <p className="text-sm uppercase tracking-[0.3em] text-ink/60">Address</p>
+              <p className="text-sm text-ink/80">
                 P.O. Box 1, PC 811, Near Madeena Market, KH Asab Area, Muscat, Oman
               </p>
             </div>
@@ -54,20 +54,20 @@ const Contact = () => (
           <div className="flex items-start gap-4">
             <FiPhone className="mt-1 text-gold" />
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-white/60">Phone</p>
-              <p className="text-sm text-white/80">+968 0000 0000</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-ink/60">Phone</p>
+              <p className="text-sm text-ink/80">+96826730159</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
             <FiMail className="mt-1 text-gold" />
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-white/60">Email</p>
-              <p className="text-sm text-white/80">info@admh.om</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-ink/60">Email</p>
+              <p className="text-sm text-ink/80">admin@aadmh.com</p>
             </div>
           </div>
           <iframe
             title="Muscat Map"
-            className="h-64 w-full rounded-2xl border border-white/10"
+            className="h-64 w-full rounded-2xl border border-black/10"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15066.02506029696!2d58.407!3d23.588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ff3f1b05b8b1%3A0x8cf3fd1a2cb1a231!2sMuscat%2C%20Oman!5e0!3m2!1sen!2som!4v1680000000000"
